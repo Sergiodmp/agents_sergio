@@ -438,7 +438,7 @@ class VA(Agent):
                             number = int(auction_df.at[0, 'number_auction_completed'])
                             va_msg_log_body = asf.auction_va_kpis(va_data_df, coil_msg_df3,\
                                         auction_df, process_df, winner_df)
-                            
+                            pdb.set_trace()
                             #va_msg retorna el dataframe y va_msg_log le envia mensaje al log sobre la ganadora
                             #winner tiene info de la ganadora y auction_df de todas?    
 
